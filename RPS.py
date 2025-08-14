@@ -4,7 +4,7 @@ from collections import deque, defaultdict
 import random
 
 # Hyperparameters
-k = 5  # memory length (number of previous steps)
+k = 4  # memory length (number of previous steps)
 a = 1  # laplacian smoothing for non-zero probabilities
 e = 0.04  # rate of randomness (avoids predictability)
 pad = "pad"  # used to pad history data when insufficient plays have occured
